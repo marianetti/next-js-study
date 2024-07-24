@@ -1,7 +1,7 @@
 import { Card } from '@/app/ui/dashboard/cards';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
-import { fetchRevenue } from '../lib/data';
+import { fetchRevenue } from '@app/lib/data';
 import { lusitana } from '@/app/ui/fonts';
 
 export default async function Page() {
